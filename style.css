@@ -1,0 +1,67 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    overflow-x: hidden;
+    background-color: whitesmoke;
+}
+.container{
+    align-items: center;
+    justify-content: center;
+    margin: 100px 250px;
+    line-height: 50px;
+}
+.container h1{
+    font-size: 45px;
+    color: midnightblue;
+}
+.container h1 span{
+    color: blue;
+}
+button{
+    margin: 0px 20px;
+    padding: 7px;
+    border: 2px solid midnightblue;
+    color: midnightblue;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    transition: all .5s ease-in-out;
+}
+button:hover{
+    background-color: midnightblue;
+    color: aliceblue;
+}
+.btn{
+    display: flex;
+    margin: 10px 0px;
+    padding: 5px 10px;
+}
+input{
+    outline: 0;
+    width: 80%;
+    height: 35px;
+    padding: 5px 10px;
+    border-radius: 7px;
+    border: 2px solid blue;
+    font-weight: bold;
+    color: blue;
+    margin-bottom: 20px;
+}
+@media screen and (max-width:770px) {
+    .container{
+        margin: 20px;
+        padding: 20px;
+    }
+    .container h1{
+        font-size: 33px;
+    }
+    .container h1 span{
+        font-size: 30px;
+    }
+    input{
+        width: 100%;
+    }
+}
